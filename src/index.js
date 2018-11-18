@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Section from './components/Section';
 
 import Works from './components/Works';
+import Team from './components/Team';
 
 class MyApp extends React.Component {
   render() {
@@ -14,6 +15,11 @@ class MyApp extends React.Component {
           <Works />
         </Section>
 
+
+        <Section name="team">
+          <Team />
+        </Section>
+         
       </div>    
     )
   }

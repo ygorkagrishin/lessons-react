@@ -48,7 +48,7 @@ class Works extends React.Component {
     return (
       <div className="work-row">
         {this.workList.map((item) => 
-          <div className="work-col">
+          <div className="work-column">
             <figure>
               <img src={item.img} alt="work pic"/>
               <figcaption>

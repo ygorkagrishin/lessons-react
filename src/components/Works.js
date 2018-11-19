@@ -48,14 +48,16 @@ class Works extends React.Component {
     return (
       <div className="work-row">
         {this.workList.map((item) => 
-          <div className="work-column">
-            <figure>
-              <img src={item.img} alt="work pic"/>
-              <figcaption>
-                <h3>{item.title}</h3>
+          <div className="work-column bug-fix-ie">
+            <div className="work-column-content">
+              <div className="work-pic-container">
+                <img src={item.img} alt="work pic"/>
+              </div>
+              <div className="work-description">
+                <h3 className="work-name-column">{item.title}</h3>
                 <p>{item.text}</p>
-              </figcaption>
-            </figure>  
+              </div>
+            </div>  
           </div>
         )}
       </div>     

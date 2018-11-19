@@ -39,11 +39,11 @@ class Team extends React.Component {
     return (
       <div className="team-row">
         {this.team.map((member) => 
-          <div className="team-column">
+          <div className="team-column bug-fix-ie">
             <figure className="team-member">
-            
-              <img src={member.src} alt="member pic" />
-
+              <div className="team-pic-container">
+                <img src={member.src} alt="member pic" />
+              </div>
               <figcaption className="team-description">
 
                 <h3 className="team-member-name">{ member.name }</h3>

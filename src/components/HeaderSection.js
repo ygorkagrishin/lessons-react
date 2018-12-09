@@ -6,7 +6,7 @@ class HeaderSection extends React.Component {
 
       <div className="header-section">
 
-        <h2 className="title-section">Tinyone features</h2>
+        <h2 className="title-section title">Tinyone features</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
         Praesent vitae eros eget tellus tristique bibendum. 
         Donec rutrum sed sem quis venenatis.</p>

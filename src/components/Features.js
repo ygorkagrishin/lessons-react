@@ -48,7 +48,7 @@ class Features extends React.Component {
       {this.grid.map((column) => 
         <div className="features-column bug-fix-ie">
           <div className="features-column-content">
-            <div className="features-pic-container">
+            <div className="features-symb-container">
               <img src={column.src} alt="features pic"/>
             </div>
             <div className="features-description">

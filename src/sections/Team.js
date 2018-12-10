@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Social from './Social';
+import Social from '../components/Social';
 
 class Team extends React.Component {
   

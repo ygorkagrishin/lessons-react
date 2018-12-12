@@ -5,12 +5,8 @@ class HeaderSection extends React.Component {
     return (
 
       <div className="header-section">
-
-        <h2 className="title-section title">Tinyone features</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-        Praesent vitae eros eget tellus tristique bibendum. 
-        Donec rutrum sed sem quis venenatis.</p>
-
+        <h2 className="title-section title">{this.props.title}</h2>
+        <p>{this.props.subtitle}</p>
       </div>
       
     )
